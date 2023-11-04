@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdep"
+version = "0.1.0"
+description = "Calculate pdep and gpdep measures on dataframes."
+authors = ["Philipp Jung <philippjung@posteo.de>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.1.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+ruff = "^0.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
